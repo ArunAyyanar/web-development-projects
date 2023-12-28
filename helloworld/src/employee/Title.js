@@ -1,7 +1,9 @@
 function Title() {
   return (
     <div>
-      <h1>Employee Details</h1>
+      <h1 style={{ color: "red", backgroundColor: "yellow" }}>
+        Employee Details
+      </h1>
     </div>
   );
 }

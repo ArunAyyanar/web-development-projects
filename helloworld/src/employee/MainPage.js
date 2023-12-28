@@ -1,14 +1,15 @@
 import React from "react";
 import Title from "./Title";
 import Employees from "./Employees";
-import MyClock from "./MyClock";
+import Clock from "./Clock";
+import "../employee/Main.css";
 
-class MainPage extends React.Component {
+class MainPage extends React.Component {  
   render() {
     return (
       <div>
+        <Clock />
         <Title />
-        <MyClock />
         <Employees />
       </div>
     );
